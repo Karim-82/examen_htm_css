@@ -1,0 +1,383 @@
+/*GENERAL CSS*/
+* {
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+
+}
+
+/*----------FONTS----------*/
+@font-face {
+    font-family: 'LaneNarrow';
+    src: url('fonts/LANENAR_.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SourceSansPro-Light';
+    src: url('fonts/SourceSansPro-Light.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*----------HEADER----------*/
+.header-container{
+    background-color:#00aaff;
+    padding-top: 60px;
+    color: white;
+}
+.logo img{
+    max-width: 150px; /* Zorgt ervoor dat logo niet groter is dan 150px breed */
+}
+.logo p{
+    font-size: 14px;
+    margin: 0; /* Geen extra ruimte boven of onder de tekst */
+    text-align: center;
+}
+/*----------HEADER SECTION----------*/
+.header-content{
+    background-color: #00aaff;
+    color: white;
+
+}
+.header-content h1{
+    font-family: 'LaneNarrow', sans-serif;
+    font-size: 36px;
+    font-weight: lighter;
+
+}
+
+/*----------KNOPPEN----------*/
+.btn-header{
+    margin-top: 20px; /* Ruimte boven de knoppen */
+}
+.btn-header .btn-1,.btn-2{
+    font-family: 'SourceSansPro-Light', Arial, SansSerif, serif;
+    font-weight: bold;
+    color: white;
+    width: 160px;
+    height: 50px;
+    padding: 15px 20px;
+    margin: 0 10px;;  /* Ruimte tussen de knoppen */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Verwijdert de standaard linkstijl */
+
+
+}
+.btn-1 {
+    background-color: rgba(223, 241, 240, 0.25);
+}
+
+.btn-2 {
+    background-color: #7ac943;
+}
+.btn-header .btn-1:hover{
+    background-color: lightskyblue;
+}
+.btn-header .btn-2:hover{
+    background-color: lightgreen;
+}
+
+/*----------Header afbeelding----------*/
+
+.header-image{
+    margin-top: 60px; /* Voeg ruimte toe tussen de knoppen en de afbeelding */
+}
+
+/*Bootstrap sectie*/
+
+.bootstrap-section {
+    height: 600px; /* Vaste hoogte van 600px */
+    padding: 60px 0; /* Ruimte boven en onder de sectie */
+
+}
+
+.bootstrap-section h2 {
+    font-family: 'LaneNarrow', sans-serif;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.bootstrap-section .subtext {
+    font-family: 'SourceSansPro-Light', sans-serif;
+    font-size: 16px;
+    margin-bottom: 40px; /* Ruimte onder de subtitel */
+    color: #555;
+}
+
+.bootstrap-item {
+    text-align: center;
+    padding: 50px;
+}
+
+.bootstrap-item img {
+    max-width: 80px; /* Bepaalt de grootte van de iconen */
+    margin-bottom: 20px; /* Ruimte onder de iconen */
+}
+
+.bootstrap-item h3 {
+    font-size: 18px;
+    color: #7ac943;
+    margin-top: 10px; /* Voegt ruimte toe boven de titel */
+    margin-bottom: 10px; /* Ruimte onder de titel */
+}
+
+.bootstrap-item p {
+    font-size: 14px;
+    color: #777;
+}
+
+/* ------------------Sectie voor de documentatie---------------------- */
+.documentation-section {
+    height: 600px; /* Vaste hoogte van 600px */
+    padding: 80px 0;
+    background-color: #f9f9f9;
+
+}
+
+/* Afbeelding van de smartphones */
+
+/* ----------------Sectie documentatie ----------------------*/
+.documentation-section {
+    height: 600px; /* Vaste hoogte van 600px */
+    padding: 80px 0;
+
+}
+
+/* Afbeelding van de smartphones */
+.documentation-image img {
+    margin-right: 50px; /* Voegt ruimte toe tussen de afbeelding en de tekst */
+}
+
+/* Titel en paragraaf */
+.documentation-content h2 {
+    font-family: 'LaneNarrow', sans-serif;
+    font-weight: normal;
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: left; /* Tekst links uitgelijnd */
+}
+
+.documentation-content p {
+    font-family: 'SourceSansPro-Light', sans-serif;
+    font-size: 16px;
+    margin-bottom: 40px; /* Ruimte onder de hoofdtekst */
+}
+
+/* Documentatie feature (iconen en tekst) */
+.doc-feature {
+    margin-bottom: 30px; /* Ruimte tussen de features */
+}
+
+.doc-feature img {
+    max-width: 40px; /*icons */
+    margin-right: 20px; /* Ruimte tussen het icoon en de tekst */
+}
+
+.doc-feature h3 {
+    font-size: 18px;
+    color: #7ac943; /* Groen voor de titels zoals in het voorbeeld */
+    margin-bottom: 5px;
+}
+
+.doc-feature p {
+    font-size: 14px;
+    color: #777;
+}
+.documentation-section-reverse .documentation-image img {
+    margin-left: 80px; /* Vergroot de ruimte tussen de afbeelding en de tekst */
+}
+
+/* ---------------Sectie Awesome--------------------------*/
+.awesome-section {
+    padding: 80px 0;
+    margin: 0 auto; /* Centreert de sectie */
+    background-color: #f9f9f9;
+
+}
+
+.awesome-section h2 {
+    font-family: 'LaneNarrow', sans-serif;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.awesome-section .subtext {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 16px;
+    margin-bottom: 40px; /* Ruimte onder de subtitel */
+    color: #555;
+}
+
+
+/* Linkerkolom en rechterkolom met tekstblokken */
+.awesome-left, .awesome-right {
+    max-width: 250px; /* Beperk de breedte van de kolommen */
+}
+
+/* Afbeelding in het midden */
+.awesome-image img {
+    margin: 0 40px; /* Ruimte tussen de afbeelding en de tekstblokken */
+}
+
+/* Tekstblokken */
+.awesome-item {
+    margin-bottom: 30px; /* Ruimte tussen de tekstblokken */
+}
+
+.green-text {
+    color: #7ac943; /* Groen voor de titels */
+    margin-bottom: 10px;
+}
+
+.awesome-item p {
+    font-size: 14px;
+    color: #777;
+}
+
+/* ----------Sectie voor de screenshot gallery --------------- */
+.screenshot-gallery {
+    padding: 80px 0;
+
+}
+
+.screenshot-gallery h2 {
+    font-family: lane-Narrow, sans-serif;
+    font-weight: lighter;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.screenshot-gallery .subtext {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 16px;
+    margin-bottom: 40px;
+    color: #555;
+}
+
+
+
+/* Screenshot items */
+.gallery-item {
+    margin: 0 10px; /* Ruimte tussen de screenshots */
+}
+
+.gallery-item img {
+    width: 180px; /* Vaste breedte voor de afbeeldingen */
+    height: auto; /* Zorgt dat de hoogte zich aanpast aan de breedte */
+    border-radius: 8px;
+    background-color: #e0e0e0;
+}
+/* --------Footer------------------ */
+/*----------- Nieuwsbrief ----------*/
+
+.footer-section {
+    padding: 50px 0;
+    background-color: #1f9bc9;
+    color: white;
+}
+
+.footer-section h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-family: 'LaneNarrow', sans-serif;
+}
+
+.footer-section p {
+    font-family: 'SourceSansPro-Light', sans-serif;
+    max-width: 600px;
+    margin: 10px auto;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.newsletter {
+    margin: 20px 0;
+}
+
+.newsletter input {
+    padding: 15px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    width: 300px;
+}
+
+.newsletter button {
+    padding: 15px 20px;
+    background-color: #7ac943;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+
+.social-icons {
+    margin: 30px 0;
+}
+
+.social-icons img {
+    width: 40px;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+    color: white;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+
+}
+
+.footer-section p:last-of-type {
+    border-top: 1px solid white;
+    width: 797px;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+/* -------------------Flexbox Layout  ------------------- */
+.text-center {
+    text-align: center;
+}
+.d-flex {
+    display: flex;
+}
+
+.d-inline-flex {
+    display: inline-flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-row-reverse {
+    flex-direction: row-reverse;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-start {
+    align-items: flex-start;
+}
